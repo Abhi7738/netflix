@@ -1,0 +1,428 @@
+/* Body */
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(image/backgrong\ netflix.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+/* section 1 Navbar */
+#navbar {
+    margin: 0px;
+    margin-top: 20px;
+    padding: 0px;
+    gap: 100px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#right #right1{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+#right1{
+    font-family: Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 40px;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 9.25rem;
+    height: 2.5rem;
+    
+}
+#lang{
+    position: relative;
+}
+#langmenu{
+    margin: 10px;
+    padding: 0px;
+    list-style-type: none;
+    position: absolute;
+    display: none;
+}
+#lang:hover #langmenu{
+    display: block;
+}
+#ld{
+    padding: 8px 10px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#su{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border: 0px solid red;
+    padding: 10px;
+    font-size: 15px;
+}
+/* section 2 body*/
+#body{
+    height: 500px;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+#body h1{
+    font-size: 42px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+#body #p1{
+    margin: 0px;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+#body #p2{
+    margin: 0px;
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+#body #bodymenu{
+    margin-top: 20px;
+    
+
+}
+input{
+    background-color: transparent;
+    color:white;
+    width: 415px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.473);
+}
+button{
+    border: 0px;
+    margin-left: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    height: 45px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 400px;
+}
+#Enjoy{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+#Enjoy div{
+    width: 45%;
+}
+#left h1{
+    font-size: 45px;
+}
+#left p{
+    font-size: 25px;
+}
+#right{
+    position: relative;
+}
+#right img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+}
+#right video{
+    position: absolute;
+    top: 20.5%;
+    left: 13%;
+    width: 73%;
+}
+#count{
+    height: 519px;
+    margin-top: 50px;
+    border-top: 5px  solid #7a7a7a ;
+    background-color: black;
+}
+
+
+#enjoy1{
+    color: white;
+}
+#enjoy1{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+#enjoy1 div{
+    width: 45%;
+}
+#r1 h1{
+    font-size: 45px;
+}
+#r1 p{
+    font-size: 25px;
+}
+#c1{
+    height: 450px;
+    border-top: 7px solid #7a7a7a ;
+    border-bottom: 7px solid #7a7a7a;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+
+#l1{
+    position: relative;
+}
+#l1 img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+#enjoy2{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+#enjoy2 div{
+    
+    width: 45%;
+}
+#l2 h1{
+    padding-top: 10px;
+    font-size: 45px;
+}
+#l2 p{
+    font-size: 25px;
+}
+#r2{
+
+    position: relative;
+}
+#r2 img{
+    margin-top: 33px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 2;
+}
+#r2 video{
+    position: absolute;
+    top: 14.5%;
+    left: 19%;
+    width: 60%;
+}
+#enjoy2 #l1{
+    margin-top: 10px;
+}
+
+#c2{
+    height: 450px;
+    margin-top: -5px;
+    border-top: 5px  solid #7a7a7a ;
+    border: top 5px solid #7a7a7a;
+    background-color: black;
+}
+
+
+#enjoy3{
+    color: white;
+}
+#enjoy3{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+#enjoy3 div{
+    width: 45%;
+}
+#r3 h1{
+    font-size: 45px;
+}
+#r3 p{
+    font-size: 25px;
+}
+#c3{
+    height: 450px;
+    border-top: 7px solid #7a7a7a ;
+    border-bottom: 7px solid #7a7a7a;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+
+#l3{
+    position: relative;
+}
+#l3 img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+/* mobile version */
+
+@media( max-width:600px){
+  
+
+    body{
+        
+        background-size: 200%;
+        background-position-x: center;
+
+        }
+        #navbar{
+            justify-content: space-around;
+            align-items: center;
+        }
+        #ri{
+            height: 10px;
+            width: auto;
+        }
+        #body h1{
+            font-size: 32px;
+        }
+        #body p{
+            font-size: 18px;    
+        }
+        #body #p2{
+            font-size: 18px;
+        }
+        #body div{
+            /* padding: 15px 0px; */
+        }
+        #body div input{
+            width: 280px;
+            margin-bottom: 15px;
+        }
+        #cont{
+            margin-top: -201px;
+        }
+
+
+
+
+    #Enjoy{
+        width: 95%;
+        margin: auto;
+        flex-direction: column;
+    }
+    #Enjoy div{
+        width: 100%;
+        text-align: center;
+    }
+    #left h1{
+        font-size: 30px;
+    }
+    #left p{
+        font-size: 20px;
+    }
+    #right img{
+        margin-top: 0px;
+        height: 320px;
+    }
+    #right{
+        margin-top: 0px;
+    }
+
+
+    #enjoy1{
+        width: 95%;
+        margin: auto;
+        flex-direction: column-reverse;
+    }
+    #enjoy1 div{
+        width: 100%;
+        text-align: center;
+    }
+    #r1 h1{
+        font-size: 20px;
+    }
+    #r1 p{
+        font-size: 20px;
+    }
+    #l1 img{
+        
+        height: 300px;
+        
+    }
+
+
+
+    #enjoy2{
+        height: 0px;
+        width: 100% ;
+        margin: auto;
+        flex-direction: column;
+
+    }
+    #enjoy2 div{
+        
+        width: 100%;
+        text-align: center;
+    }
+    #l2 h1{
+        font-size: 20px;
+    }
+    #l2 p{
+        font-size: 20px;
+    }
+
+    #r2 img{
+        height: 25  0px;
+    }
+    
+    #enjoy3{
+        width: 95%;
+        margin: auto;
+        flex-direction: column-reverse;
+    }
+    #enjoy3 div{
+        width: 100%;
+        text-align: center;
+    }
+    #r3 h1{
+        font-size: 20px;
+    }
+    #r3 p{
+        font-size: 20px;
+    }
+    #l3 img{
+        
+        height: 300px;
+        
+    }
+
+    
+
+}
